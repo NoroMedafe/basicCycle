@@ -15,8 +15,8 @@ namespace basicCycle
 
             Console.Write("Выведем ваще имя столько раз сколько захотите!" + "\n" + "Введите имя: ");
             userName = Console.ReadLine();
-            Console.Write("Сколько раз вывести?: "); numberOfRepetitions= Convert.ToInt32(Console.ReadLine());
-
+            Console.Write("Сколько раз вывести?: "); 
+            numberOfRepetitions= Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < numberOfRepetitions; i++)
             {
                 Console.Write(userName + " ");
